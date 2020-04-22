@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Mistral';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Mistral'), url('./assets/fonts/MISTRAL.TTF') format('ttf');
+  src: local('Mistral'), url('./assets/fonts/Mistral.eot') format('eot');
+  src: local('Mistral'), url('./assets/fonts/Mistral.svg') format('svg');
+  src: local('Mistral'), url('./assets/fonts/Mistral.woff') format('woff');
+  src: local('Mistral'), url('./assets/fonts/Mistral.woff2') format('woff2');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
+}

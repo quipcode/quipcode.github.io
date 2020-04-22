@@ -1,0 +1,54 @@
+.timeline-classy{
+    /* background-color: #A4A4A4 ; */
+    /* background: rgb(49,23,1);
+    background: linear-gradient(15deg, rgba(49,23,1,1) 0%, rgba(0,158,75,1) 38%, rgba(0,85,183,1) 100%); */
+    
+    /* background: rgb(49,23,1);
+    background: linear-gradient(15deg, rgba(49,23,1,1) 0%, rgba(0,158,75,1) 81%, rgba(0,85,183,1) 100%); */
+    /* background: rgb(49,23,1);
+background: linear-gradient(15deg, rgba(49,23,1,1) 0%, rgba(0,158,75,1) 28%, rgba(0,85,183,1) 56%, rgba(255,255,255,1) 100%); */
+
+background: rgb(49,23,1);
+background: linear-gradient(15deg, rgba(49,23,1,1) 0%, rgba(0,158,75,1) 19%, rgba(0,85,183,1) 45%, rgba(255,255,255,1) 100%); 
+}
+
+#experience{
+    padding-top: 50px;
+}
+/* .main{
+    padding-top: 38px;
+} */
+
+.timeline-element-future{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; 
+}
+
+.timeline-element-classy{
+    background-image: url('../../assets/images/computer-icons-software-developer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; 
+    
+    /* float: right */
+    /* background-image: url(https://images.theweek.com/sites/default/files/styles/tw_image_9_4/public/istock-527028804.jpg?itok=VtQBDIcm&resize=450x200); */
+    /* background-color: pink */
+    
+    /* backgroundImage: 'https://images.theweek.com/sites/default/files/styles/tw_image_9_4/public/istock-527028804.jpg?itok=VtQBDIcm&resize=450x200' */
+}
+
+
+.timeline-element-classy2{
+    background-image: url('../../assets/images/Clipart-Email-9158026.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left; 
+    
+
+}
+.experience-heading{text-align:center;}
+.experience-heading p{font-family:Open Sans,sans-serif;font-size:18px;line-height:21px;font-weight:400;margin:0}
+/* .heading{text-align:center;padding-bottom:45px}
+.heading p{font-family:Open Sans,sans-serif;font-size:14px;line-height:21px;font-weight:400;padding-bottom:22px;margin:0} */
+@media only screen and (max-width:480px){.heading{padding-bottom:25px}}

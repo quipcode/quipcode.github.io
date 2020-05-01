@@ -29,13 +29,16 @@ export default function Projects() {
     client
       .query({
         query: gql`
-          {
-            repositoryOwner(login: "${projects.githubUserName}") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
+        {repositoryOwner(login: "${projects.githubUserName}") {
+          ... on ProfileOwner {
+            pinnedItemsRemaining
+            itemShowcase {
+              items(first: 5) {
+                totalCount
+                edges {
+                  node {
+                    ... on Repository {
+                      name
                       description 
                       forkCount
                       stargazers {
@@ -52,12 +55,15 @@ export default function Projects() {
                   }
                 }
               }
+              hasPinnedItems
             }
           }
+        }
+      }
         `
       })
       .then(result => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+        setrepoFunction(result.data.repositoryOwner.itemShowcase.items.edges);
         console.log(result);
       });
   }

@@ -25,7 +25,7 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "Forte & Foibles",
+  title: "Skills",
   subTitle: "A prospecting developer who wants to survey and build, scalable and robust, application that solve real world problems",
   
   skills: [

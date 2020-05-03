@@ -25,10 +25,9 @@ export default function Experience(){
         <React.Fragment>
             <header></header>
             <div className="heading experience-heading">
-            <h2>Work Experience & Education</h2>
-            <p>Previous jobs and my qualifications</p>
+            <h1 className="experience-title">Work Experience & Education</h1>
             </div>
-        <VerticalTimeline className="timeline-classy">
+        <VerticalTimeline className="timeline-classy" >
         <VerticalTimelineElement
                 className="vertical-timeline-element--work "
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
@@ -37,33 +36,7 @@ export default function Experience(){
             >
                 
             </VerticalTimelineElement>
-            {/* <VerticalTimelineElement
-                className="vertical-timeline-element--work timeline-element-classy"
-                contentStyle={{ background: 'rgb(33, 150, 243)', "color": '#fff', backgroundImage: `url(${Background1})`, backgroundSize: "contain" , backgroundRepeat: "no-repeat"}}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="2011 - present"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                icon={<WorkIcon />}
-            >
-                <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-                <p>
-                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work timeline-element-classy2"
-                contentStyle={{ background: 'rgb(33, 150, 243)', "color": '#fff', backgroundImage: `url(${Background2})`, backgroundSize: "contain" , backgroundRepeat: "no-repeat", backgroundPosition: "right"}}
-                date="2010 - 2011"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                ////icon={<WorkIcon />}
-            >
-                <h3 className="vertical-timeline-element-title">Art Director</h3>
-                <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                <p>
-                Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-                </p>
-            </VerticalTimelineElement> */}
+            
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="2019 - "
@@ -73,7 +46,7 @@ export default function Experience(){
                 <h3 className="vertical-timeline-element-title">Support Engineer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Infosys</h4>
                 <p>
-                Provide functional and technical software application support to clients
+                Collaborate with Dynamics 365 developers to identify, mitigate, and resolve Dynamics 365 and Office Product bugs
                 </p>
             </VerticalTimelineElement>
             
@@ -89,23 +62,11 @@ export default function Experience(){
                 Provide functional and technical software application support to clients
                 </p>
             </VerticalTimelineElement>
+         
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="2016 - 2017"
-                iconStyle={{ background: 'rgb(0,158,75)', color: '#fff' }}
-                icon={<WorkIcon />}
-            >
-                <h3 className="vertical-timeline-element-title"> Field Technician</h3>
-                <h4 className="vertical-timeline-element-subtitle"> Charter</h4>
-                <p>
-                Performed cable installation, reconnects, and upgrades for customers who sought
-internet, video, and phone services
-                </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="2016 - 2017"
-                iconStyle={{ background: 'rgb(0,158,75)', color: '#fff' }}
+                iconStyle={{  background: 'rgb(33, 150, 243)', color: '#fff' }}
                 icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title"> IT Technician</h3>
@@ -118,7 +79,7 @@ related to computer systems, software, and hardware
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="2016"
-                iconStyle={{ background: 'rgb(0,158,75)', color: '#fff' }}
+                iconStyle={{  background: 'rgb(33, 150, 243)', color: '#fff' }}
                 
                 // iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                 icon={<SchoolIcon />}
@@ -127,36 +88,8 @@ related to computer systems, software, and hardware
                 <h4 className="vertical-timeline-element-subtitle">Web Development Immersive</h4>
                 
             </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="2014 - 2015"
-                iconStyle={{ background: 'rgb(49,23,1)' , color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(49,23,1)' }}
-                contentStyle={{ "color": 'black'}}
-                icon={<WorkIcon />}
-            >
-                <h3 className="vertical-timeline-element-title">Drilling Fluids Specialist</h3>
-                <h4 className="vertical-timeline-element-subtitle">M-I SWACO, A Schlumberger Company</h4>
-                <p>
-                Maintained drilling fluid properties via chemical and physical treatment as
-dictated by the operator/mud program
-                </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="2012 - 2014"
-                iconStyle={{ background: 'rgb(49,23,1)' , color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(49,23,1)' }}
-                contentStyle={{ "color": 'black'}}
-                icon={<WorkIcon />}
-            >
-                <h3 className="vertical-timeline-element-title">Chemist</h3>
-                <h4 className="vertical-timeline-element-subtitle">Pharmavite</h4>
-                <p>
-                Executed physical and chemical analyses of various products and samples utilizing wet chemistry and instrumentation such
-as NIR, FTIR, UV-Visible, GC, UPLC and HPLC
-                </p>
-            </VerticalTimelineElement>
+     
+          
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="2012"

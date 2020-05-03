@@ -1,13 +1,11 @@
 .header {
   max-width: 90%;
-  /* padding: 20px 10px; */
   margin: 0px auto;
-  /* background: rgb(49,23,1);
-background: linear-gradient(270deg, rgba(49,23,1,1) 0%, rgba(0,158,75,1) 81%, rgba(0,85,183,1) 100%); */
-background: rgb(255,255,240);
-background: linear-gradient(90deg, rgba(255,255,240,1) 0%, rgba(0,85,183,1) 100%);
-/* background: rgb(0,158,75);
-background: linear-gradient(90deg, rgba(0,158,75,1) 0%, rgba(0,85,183,1) 100%);  */
+
+/* background: rgb(255,255,240);
+background: linear-gradient(90deg, rgba(255,255,240,1) 0%, rgba(0,85,183,1) 100%); */
+background: #fff;
+
 }
 
 .header ul {
@@ -24,13 +22,14 @@ background: linear-gradient(90deg, rgba(0,158,75,1) 0%, rgba(0,85,183,1) 100%); 
 .header li a {
   display: block;
   padding: 20px 20px;
-  color: #fff;
+  color: #0055B7;
+  /* color: #fff; */
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
 }
 
 .header .logo {

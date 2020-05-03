@@ -10,7 +10,7 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
         <div className="skills-image-div">
-          <img alt="Saad Working" src={require("../../assets/images/computer-icons-software-developer.png")}></img>
+          <img alt="ahab Working" src={require("../../assets/images/computer-icons-software-developer.png")}></img>
         </div>
         </Fade>
         <Fade right duration={1000}>

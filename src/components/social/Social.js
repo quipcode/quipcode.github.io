@@ -8,7 +8,7 @@ export default function Social() {
     return (
         // <Fade bottom duration={1000} distance="20px">
 
-        <div className="main contact-margin-top" id="social">
+        <div className="main contact-margin-top" id="contact">
             <SocialMedia/>
             <div className="contact-div-main">
                 {/* <div className="contact-header">

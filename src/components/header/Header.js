@@ -11,9 +11,9 @@ export default function Header(){
             <div   className="sticker"  >
                 <header className="header">
                     <a href="" className="logo">
-                        <span className="grey-color"> &lt;</span>
+                        {/* <span className="grey-color"> &lt;</span> */}
                         <span className="logo-name" >Ahmed Abdulkarim</span>
-                        <span className="grey-color">/&gt;</span>
+                        {/* <span className="grey-color">/&gt;</span> */}
                     </a>
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn">
@@ -34,7 +34,7 @@ export default function Header(){
                             <a href="#experience">Experience</a>
                         </li>
                         <li>
-                            <a href="#social">Social</a>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
                 </header>

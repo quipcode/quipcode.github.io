@@ -10,7 +10,7 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a href={socialMediaLinks.linkedin} className="icon-button linkedin" target="_blank">
-        <i className="fab fa-linkedin-in"></i>
+        <i className="fab fa-linkedin"></i>
         <span></span>
       </a>
       <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button google" target="_blank">

@@ -8,8 +8,12 @@
     /* background: rgb(49,23,1);
 background: linear-gradient(15deg, rgba(49,23,1,1) 0%, rgba(0,158,75,1) 28%, rgba(0,85,183,1) 56%, rgba(255,255,255,1) 100%); */
 
-background: rgb(49,23,1);
-background: linear-gradient(15deg, rgba(49,23,1,1) 0%, rgba(0,158,75,1) 19%, rgba(0,85,183,1) 45%, rgba(255,255,255,1) 100%); 
+/* background: rgb(49,23,1);
+background: linear-gradient(15deg, rgba(49,23,1,1) 0%, rgba(0,158,75,1) 19%, rgba(0,85,183,1) 45%, rgba(255,255,255,1) 100%);  */
+/* background: rgb(0,85,183);
+background: linear-gradient(30deg, rgba(0,85,183,1) 0%, rgba(255,255,255,1) 100%);  */
+background: #E3E3E3;
+
 }
 
 #experience{
@@ -47,6 +51,18 @@ background: linear-gradient(15deg, rgba(49,23,1,1) 0%, rgba(0,158,75,1) 19%, rgb
     
 
 }
+
+
+.experience-title {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: normal;
+    
+    /* position: center; */
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+  }
 .experience-heading{text-align:center;}
 .experience-heading p{font-family:Open Sans,sans-serif;font-size:18px;line-height:21px;font-weight:400;margin:0}
 /* .heading{text-align:center;padding-bottom:45px}

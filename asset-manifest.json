@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9e65167.chunk.css",
+    "main.css": "/static/css/main.fd367c15.chunk.css",
     "main.js": "/static/js/main.ff4b4096.chunk.js",
     "main.js.map": "/static/js/main.ff4b4096.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.13135219.js",
@@ -9,10 +9,10 @@
     "static/js/2.4a90dac7.chunk.js": "/static/js/2.4a90dac7.chunk.js",
     "static/js/2.4a90dac7.chunk.js.map": "/static/js/2.4a90dac7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d5c19039a680e58ebe6bba6a172a8f01.js": "/precache-manifest.d5c19039a680e58ebe6bba6a172a8f01.js",
+    "precache-manifest.962c96141afad95aaefdf897e2a0f91a.js": "/precache-manifest.962c96141afad95aaefdf897e2a0f91a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0948c81e.chunk.css.map": "/static/css/2.0948c81e.chunk.css.map",
-    "static/css/main.c9e65167.chunk.css.map": "/static/css/main.c9e65167.chunk.css.map",
+    "static/css/main.fd367c15.chunk.css.map": "/static/css/main.fd367c15.chunk.css.map",
     "static/js/2.4a90dac7.chunk.js.LICENSE.txt": "/static/js/2.4a90dac7.chunk.js.LICENSE.txt",
     "static/media/Clipart-Email-9158026.png": "/static/media/Clipart-Email-9158026.bc21be92.png",
     "static/media/index.css": "/static/media/Mistral.ed46437f.svg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.13135219.js",
     "static/css/2.0948c81e.chunk.css",
     "static/js/2.4a90dac7.chunk.js",
-    "static/css/main.c9e65167.chunk.css",
+    "static/css/main.fd367c15.chunk.css",
     "static/js/main.ff4b4096.chunk.js"
   ]
 }
